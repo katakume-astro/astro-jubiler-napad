@@ -27,7 +27,7 @@ RegisterNetEvent("astro-heist:lockdoors", function()
 end)
 
 RegisterNetEvent("astro-heist:deleteitem", function(item)
-    RemoveItem(source, "item", 1)
+    RemoveItem(source, item, 1)
 end)
 
 RegisterNetEvent("astro-heist:items", function()
