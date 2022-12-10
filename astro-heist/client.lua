@@ -30,7 +30,7 @@ GiveWeaponToPed(guard, `WEAPON_HEAVYPISTOL`, 255, false, true)
 end
 
 function trolly()
-CreateTrolly("diamond", vector3(-629.5137, -228.8671, 38.0570), function()
+CreateTrolly("money", vector3(-629.5137, -228.8671, 38.0570), function()
 TriggerServerEvent('astro-heist:trollygift')
 end)
 end
